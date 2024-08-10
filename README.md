@@ -13,7 +13,7 @@ Windows will automatically write protect partitions already mounted in Windows.
 
 Tested on Windows 11 and WSL running Ubuntu 22.04
 
-The wsl-rawdisk-server.exe is included in the distribution package, but can be build on windows:
+The wsl-rawdisk-server.exe is included in the distribution package, but can be build on windows:\
 python3 -m venv\
 venv\Scripts\activate\
 pip install -r venv-win-requirements.txt\
