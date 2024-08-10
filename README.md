@@ -5,7 +5,7 @@ sudo python3 wsl-rawdisk.py
 
 You can then access the partitions on your system disk using /dev/loop0p1 /dev/loop0p2 and so on.
 
-In WSL fusepy must be installed. For ubuntu this can be done using:+
+In WSL fusepy must be installed. For ubuntu this can be done using:\
 sudo apt install python3-fusepy
 
 Use at own risk, destroying partition tables or system disk can lead to bricked system.\
