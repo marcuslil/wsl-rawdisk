@@ -5,7 +5,7 @@ wsl-rawdisk enables access to pysical drives from WSL including the Windows syst
 To start the app, extract the contents of the release package on the WSL side, then run:\
 sudo python3 wsl-rawdisk.py
 
-You can then access the partitions on your system disk using /dev/loop0p1 /dev/loop0p2 and so on.
+You can then access or mount the partitions on your system disk using /dev/loop0p1 or /dev/disk/by-*.
 
 In WSL fusepy must be installed. For ubuntu this can be done using:\
 sudo apt install python3-fusepy
